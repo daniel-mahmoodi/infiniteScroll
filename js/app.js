@@ -14,6 +14,7 @@
         return await response.json();
     }
 
+
     // show the quotes
     const showQuotes = (quotes) => {
         quotes.forEach(quote => {
